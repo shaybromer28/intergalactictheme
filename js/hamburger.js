@@ -12,6 +12,8 @@ jQuery(document).ready(function(){
   jQuery( ".menu" ).slideToggle( "slow", function() {
   jQuery( ".cross" ).hide();
   jQuery( ".hamburger" ).show();
+  jQuery( ".menu" ).show();
+  jQuery( ".menu-item" ).show();
   });
   });
 });
